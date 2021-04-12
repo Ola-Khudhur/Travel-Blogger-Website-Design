@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:  'Roboto', sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/home_background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 40px;
+    cursor: pointer;
+}
+.menu-icon {
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul li {
+    list-style: none;
+    display:inline-block;
+    margin-left: 60px;
+}
+nav ul li a {
+    text-decoration: none;
+    color:#fff;
+    font-size: 13px;
+}
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col {
+    flex-basis: 100%;
+}
+h1 {
+    color: #fff;
+    font-size: 80px;
+}
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-image: url(img/pic-1.png);
+    background-position: center;
+    background-size: cover;
+    transition :transform 0.5s; 
+}
+.card1{
+    background-image: url(img/pic-1.png);
+}
+.card2{
+    background-image: url(img/pic-2.png);
+}
+.card3{
+    background-image: url(img/pic-3.png);
+}
+.card4{
+    background-image: url(img/pic-4.png);
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+h5 {
+    color:#535252;
+    text-shadow: 0 0 5px #999;
+}
+p {
+    text-shadow: 0 0 15px #999;
+    font-size: 10px;
+    color:aliceblue;
+    line-height: 15px;
+} 
+.fa {
+    text-decoration: none;
+    margin: 10px 2px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook:hover {
+    color:#3B5998;
+  }
+  .fa-twitter:hover {
+    color: #55ACEE;
+  }
+  .fa-linkedin:hover{
+    color: #007bb5;
+  }
+  .fa-youtube:hover{
+    color: #bb0000 ;
+  }
+  .fa-instagram:hover {
+   color:mediumvioletred;
+  }
+  .fa-pinterest:hover{
+    color: #cb2027;
+  }
+  .fa-facebook {
+    color: white;
+  }
+  .fa-twitter {
+    color: white;
+  }
+  .fa-linkedin {
+    color: white;
+  }
+  .fa-youtube {
+    color: white;
+  }
+  .fa-instagram {
+    color: white;
+  }
+  .fa-pinterest {
+    color: white;
+  }
+  
